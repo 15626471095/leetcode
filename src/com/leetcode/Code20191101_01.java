@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Code20191101 {
+public class Code20191101_01 {
 
     private StringBuilder builder = new StringBuilder(8);
     private Map<Integer, Boolean> flagMap = new LinkedHashMap<>();
@@ -50,8 +50,8 @@ public class Code20191101 {
     }
 
     public static void test(int[] regs, long cycleNum) {
-        Code20191101 code20191101 = new Code20191101();
-        regs = code20191101.registerStatus(regs, cycleNum);
+        Code20191101_01 code2019110101 = new Code20191101_01();
+        regs = code2019110101.registerStatus(regs, cycleNum);
         print(regs, true);
     }
 
